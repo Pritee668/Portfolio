@@ -1,0 +1,59 @@
+.skills-category {
+  margin: 0.5rem auto;
+}
+h4{
+  font-size: 1.4rem !important;
+  text-align: center !important;
+}
+
+.skill-name {
+  font-size: 1rem;
+  transition: font-size 0.2s;
+}
+@media (max-width: 1024px) {
+  .skill-name {
+    font-size: 0.9rem; 
+  }
+ 
+}
+
+@media (max-width: 768px) {
+  .skill-name {
+    font-size: 0.8rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-name {
+    font-size: 0.7rem; 
+  }
+}
+
+.custom-carousel .carousel-item {
+  transition: transform 0.5s ease-in-out;
+}
+
+.custom-carousel:hover .carousel-item {
+  transform: scale(1.05); 
+}
+
+.custom-carousel .carousel-slider {
+  overflow: visible;
+}
+
+
+.carousel .carousel-item {
+  padding: 5px;
+  margin-right: -20px; 
+}
+
+.carousel .carousel-item img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.carousel-root {
+  max-width: 100%;
+  margin: 0 auto;
+}

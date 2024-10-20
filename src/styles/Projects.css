@@ -1,0 +1,241 @@
+/* .projects-section {
+ padding-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  background: white; 
+  border-radius: 8px; 
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.5), 
+              0 0 40px rgba(0, 255, 0, 0.3),
+              0 0 60px rgba(0, 0, 255, 0.5); 
+  
+}
+/* .cprojects-card{
+  border: 2px solid black;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to right, rgba(109, 245, 192, 0.821), rgba(206, 124, 241, 0.806));
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(130, 245, 115, 0.15), 
+              0 0 10px rgba(214, 214, 23, 0.5), 
+              0 0 20px rgba(247, 245, 245, 0.3), 
+              0 0 30px rgba(177, 156, 228, 0.5); 
+  width: 300px;
+  height: 300px; 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.6rem;
+} */
+
+/*.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.Alltext{
+ border: 1px solid black;
+}
+.project-card {
+  border: 2px solid black;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to right, rgba(109, 245, 192, 0.821), rgba(206, 124, 241, 0.806));
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(130, 245, 115, 0.15), 
+              0 0 10px rgba(214, 214, 23, 0.5), 
+              0 0 20px rgba(247, 245, 245, 0.3), 
+              0 0 30px rgba(177, 156, 228, 0.5); 
+  width: 300px;
+  height: 280px; 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.6rem;
+}
+img{
+  border-radius: 1rem;
+}
+ h2{
+  margin-top: 5rem;
+  text-align: center;
+ }
+h6{
+  text-align: center;
+  font-weight: 700;
+}
+p,p>strong{
+  font-size: 0.7rem;
+}
+
+.project-image {
+  width: 100%;
+  height: 45%; 
+  object-fit: cover;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-around; 
+  padding-bottom: 0.7rem;
+  
+}
+
+.project-link,
+.github-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007BFF; 
+  padding: 0.2rem 0.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover,
+.github-link:hover {
+  background-color: #0056b3;
+}
+
+
+.cproject-card {
+  border: 2px solid black;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to right, rgba(255, 204, 0, 0.8), rgba(255, 102, 102, 0.7));
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(255, 204, 0, 0.5), 
+              0 0 10px rgba(255, 102, 102, 0.5), 
+              0 0 30px rgba(255, 153, 51, 0.4), 
+              0 0 40px rgba(255, 51, 51, 0.5);
+  width: 300px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.6rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cproject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(255, 204, 0, 0.8), 
+              0 0 15px rgba(255, 102, 102, 0.7), 
+              0 0 50px rgba(255, 153, 51, 0.5), 
+              0 0 60px rgba(255, 51, 51, 0.6);
+}
+
+.cproject-card h6 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.cproject-card p, .cproject-card p > strong {
+  font-size: 0.7rem;
+}
+
+.project-image {
+  width: 100%;
+  height: 45%;
+  object-fit: cover;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 0.7rem;
+}
+
+.project-link,
+.github-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007BFF;
+  padding: 0.2rem 0.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover,
+.github-link:hover {
+  background-color: #0056b3;
+} */
+
+
+
+
+
+.projects-section {
+  padding: 2rem;
+  margin: 2rem 0;
+  background: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  margin: 1rem 0;
+  text-align: center;
+  color: #333;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project-card, .cproject-card {
+  border: 2px solid #fcfcfc;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 300px;
+  height: max-content;
+  box-shadow: 0 4px 10px rgba(44, 8, 222, 0.642);
+}
+
+.project-card:hover, .cproject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.Alltext {
+  padding: 0.5rem;
+}
+
+h6 {
+  text-align: center;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: #007BFF;
+}
+
+p, p > strong {
+  font-size: 0.7rem;
+  color: #000000;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.project-link, .github-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007BFF;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover, .github-link:hover {
+  background-color: #0056b3;
+}
+
+.cproject-card {
+  background-image: linear-gradient(to right, rgba(255, 204, 0, 0.8), rgba(255, 102, 102, 0.7));
+}

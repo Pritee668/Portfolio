@@ -1,0 +1,54 @@
+.resume-display-section {
+    display: flex; 
+    margin-top: 2.5rem;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 95vh; 
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .resume-image {
+    max-width: 75vw;
+    height: 70vh; 
+    margin-bottom: 1.5rem;
+  
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+  }
+  
+  .resume-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 1rem; 
+  }
+  
+  .download-button,
+  .view-button {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .download-button {
+    background-color: #da34a8; 
+  }
+  
+  .download-button:hover {
+    background-color: #3416dd; 
+  }
+  
+  .view-button {
+    background-color: #b71bba; 
+  }
+  
+  .view-button:hover {
+    background-color: #218838; 
+  }
+  

@@ -1,0 +1,264 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #2C3E50;
+    padding: 10px 0;
+    z-index: 999;
+    transition: max-height 0.5s ease;
+    overflow: hidden;
+    max-height: 0; 
+}
+
+.menu.open {
+    max-height: 40rem; 
+    display: flex; 
+}
+
+li.menu_list {
+    height: 4rem;
+    width: 6rem;
+    position: relative;
+    margin: 0 1.5rem;
+    border-radius: 0.4rem;
+}
+
+li.menu_list .front,
+a.side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    padding: 15px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+li.menu_list .front {
+    background-color: #34495E;
+    color: #ECF0F1;
+    transform-origin: 0 0;
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 0.4rem;
+}
+
+a.side {
+    background-color: #1ABC9C;
+    color: #34495E;
+    transform-origin: 0 0 85px;
+    transform: rotateY(-90deg);
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+
+li.menu_list:hover a.side {
+    transform: rotateY(0deg);
+}
+
+li.menu_list:hover .front {
+    transform: rotateY(90deg);
+}
+
+body {
+    padding-top: 10rem;
+    font-family: Arial, sans-serif;
+}
+
+a.side,
+.front {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    color: #fffc00;
+    font-size: 2rem;
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    z-index: 1000;
+}
+
+@media (max-width: 775px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        display: none; 
+    }
+
+    .menu.open {
+        max-height: 40rem; 
+    }
+
+    .hamburger {
+        display: block; 
+    }
+
+    li.menu_list {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    li.menu_list .front,
+    a.side {
+        padding: 1rem 0; 
+    }
+} */
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #2C3E50;
+  padding: 1.5rem 0;
+  z-index: 999;
+  transition: max-height 0.5s ease;
+  overflow: hidden;
+  max-height: 0; 
+}
+
+.menu.open {
+  max-height: 50rem; 
+  display: flex; 
+}
+
+li.menu_list {
+  height: 5rem;
+  width: 8rem;
+  position: relative;
+  margin: 0 2rem;
+  border-radius: 0.5rem;
+}
+
+li.menu_list .front,
+a.side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 100%;
+  padding: 1rem 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+li.menu_list .front {
+  background-color: #34495E;
+  color: #ECF0F1;
+  transform-origin: 0 0;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 0.5rem;
+}
+
+a.side {
+  background-color: #1ABC9C;
+  color: #34495E;
+  transform-origin: 0 0 85px;
+  transform: rotateY(-90deg);
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+li.menu_list:hover a.side {
+  transform: rotateY(0deg);
+}
+
+li.menu_list:hover .front {
+  transform: rotateY(90deg);
+}
+
+body {
+  padding-top: 12rem;
+  font-family: Arial, sans-serif;
+}
+
+a.side,
+.front {
+  font-family: "Roboto", sans-serif;
+  border-radius: 0.5rem;
+  /* font-weight: 700; */
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: #fffc00;
+  font-size: 2.5rem;
+  position: fixed;
+  top: 1.5rem;
+  right: 2.5rem;
+  z-index: 1000;
+}
+
+@media (max-width: 1200px) {
+  .menu {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.1rem;
+      display: none; 
+  }
+
+  .menu.open {
+      max-height: 25rem; 
+  }
+
+  .hamburger {
+      display: block; 
+  }
+
+  li.menu_list {
+      width: 100%;
+      margin: 1.5rem 0;
+  }
+
+  li.menu_list .front,
+  a.side {
+      padding: 1.5rem 0; 
+  }
+}
