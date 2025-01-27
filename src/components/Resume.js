@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeImage from '../image/FinalResume.jpg'; 
+import resumeImage from '../image/resume.jpeg'; 
 import '../styles/Resume.css';
 
 const ResumeDisplay = () => {
