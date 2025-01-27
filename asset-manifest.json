@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.746d9b3d.css",
-    "main.js": "/Portfolio/static/js/main.fa9e3d6c.js",
+    "main.css": "/Portfolio/static/css/main.ffc507f3.css",
+    "main.js": "/Portfolio/static/js/main.82193e83.js",
     "static/media/Materialize.png": "/Portfolio/static/media/Materialize.b2d298796b8c7d0255dc.png",
     "static/media/Myntra.png": "/Portfolio/static/media/Myntra.0578897793b60329a7a0.png",
     "static/media/YoungTurks.png": "/Portfolio/static/media/YoungTurks.5510d78ff68bcca64c1c.png",
@@ -25,11 +25,11 @@
     "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolio/index.html",
-    "main.746d9b3d.css.map": "/Portfolio/static/css/main.746d9b3d.css.map",
-    "main.fa9e3d6c.js.map": "/Portfolio/static/js/main.fa9e3d6c.js.map"
+    "main.ffc507f3.css.map": "/Portfolio/static/css/main.ffc507f3.css.map",
+    "main.82193e83.js.map": "/Portfolio/static/js/main.82193e83.js.map"
   },
   "entrypoints": [
-    "static/css/main.746d9b3d.css",
-    "static/js/main.fa9e3d6c.js"
+    "static/css/main.ffc507f3.css",
+    "static/js/main.82193e83.js"
   ]
 }
