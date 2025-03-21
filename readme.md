@@ -66,7 +66,7 @@ This portfolio can be easily deployed on platforms like [Vercel](https://vercel.
 Here are some preview images of the portfolio:
 
 ![Portfolio Screenshot 1](src/image/portfolio1.png)
-![Portfolio Screenshot 2](src/image/portfolio2.png)
+![Portfolio Screenshot 2](src/image/porfolio2.png)
 
 
 ## License
