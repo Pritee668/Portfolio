@@ -26,6 +26,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color:  rgba(255, 255, 255, 0.4);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -34,40 +35,8 @@
   z-index: 2;
   border-radius: 1rem;
   text-align: center;
-  animation-name: backgroundChange;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out; 
-  animation-iteration-count: infinite; 
+ 
 }
-
-@keyframes backgroundChange {
-  25% {
-    background-color: rgba(13, 9, 68, 0.8);
-    border-top-left-radius: 3rem;
-    border-bottom-right-radius: 3rem;
-    color: black;
-  }
-  50% {
-    background-color: rgba(4, 25, 214, 0.8);
-    border-bottom-left-radius: 3rem;
-    border-top-right-radius: 3rem;
-    color: white; 
-  } 
-  75% {
-    background-color: rgb(1, 44, 40);
-    border-top-left-radius: 3rem;
-    border-bottom-right-radius: 3rem;
-    color: rgb(78, 3, 32); 
-  }
-  100% {
-    background-color: rgba(109, 4, 86, 0.8);
-    border-bottom-left-radius: 3rem;
-    border-top-right-radius: 3rem;
-    color: rgb(249, 252, 251); 
-  }
-}
-
-
 
 .home-content h3 {
   font-size:1.7rem ; 

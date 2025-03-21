@@ -8,6 +8,7 @@ import StopwatchImage from '../image/Stopwatch.jpg';
 import TicImage from '../image/Tic.jpg';
 import MaterializeImage from '../image/Materialize.png';
 import WeatherImage from '../image/weather.jpg';
+import ToDo from '../image/Todo.jpg';
 import TextSpeechImage from '../image/tts-stt.png';
 
 const projects = [
