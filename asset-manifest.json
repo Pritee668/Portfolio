@@ -1,35 +1,32 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ffc507f3.css",
-    "main.js": "/Portfolio/static/js/main.e41ac1fe.js",
+    "main.css": "/Portfolio/static/css/main.c8394447.css",
+    "main.js": "/Portfolio/static/js/main.b1b8baae.js",
     "static/media/Materialize.png": "/Portfolio/static/media/Materialize.b2d298796b8c7d0255dc.png",
     "static/media/Myntra.png": "/Portfolio/static/media/Myntra.0578897793b60329a7a0.png",
     "static/media/YoungTurks.png": "/Portfolio/static/media/YoungTurks.5510d78ff68bcca64c1c.png",
     "static/media/Myntra2.jpg": "/Portfolio/static/media/Myntra2.6ded8584935364ffd358.jpg",
     "static/media/Flipkart&Commerce.jpg": "/Portfolio/static/media/Flipkart&Commerce.4bf9615a4d9426f17ce0.jpg",
+    "static/media/ResumePhoto.jpeg": "/Portfolio/static/media/ResumePhoto.327dc834326a75eb9ccf.jpeg",
     "static/media/Myntra1.jpg": "/Portfolio/static/media/Myntra1.7abde1a33644eccb6cf6.jpg",
     "static/media/CodingAmazon.jpg": "/Portfolio/static/media/CodingAmazon.f52c5a47f24385a48401.jpg",
     "static/media/CodingAssessment.jpg": "/Portfolio/static/media/CodingAssessment.da51624929d93c8f392b.jpg",
     "static/media/RunwayFlipkart.jpg": "/Portfolio/static/media/RunwayFlipkart.ff57de9a79f9ed786466.jpg",
     "static/media/back.jpg": "/Portfolio/static/media/back.d70fafdb62ebe1f79158.jpg",
-    "static/media/resume.jpeg": "/Portfolio/static/media/resume.033ef04bb5de6ef9346e.jpeg",
     "static/media/Tic.jpg": "/Portfolio/static/media/Tic.52f722008edd1e627885.jpg",
     "static/media/Calculator.jpg": "/Portfolio/static/media/Calculator.73b8a07d2256b951dd80.jpg",
     "static/media/Simon.jpg": "/Portfolio/static/media/Simon.b9fe29e75843f3d4e21e.jpg",
+    "static/media/tts-stt.png": "/Portfolio/static/media/tts-stt.850ec2b9b7399cea78fe.png",
     "static/media/Stopwatch.jpg": "/Portfolio/static/media/Stopwatch.fd40ed6f800125d53ac0.jpg",
     "static/media/weather.jpg": "/Portfolio/static/media/weather.384fcb966e1f61bc6407.jpg",
-    "static/media/tts.jpg": "/Portfolio/static/media/tts.3eecdff4d2438c436a46.jpg",
     "static/media/Todo.jpg": "/Portfolio/static/media/Todo.cc164e80eace7f8f8665.jpg",
     "static/media/about.avif": "/Portfolio/static/media/about.33134f8f6931d8dd758a.avif",
-    "static/media/revicons.eot": "/Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolio/index.html",
-    "main.ffc507f3.css.map": "/Portfolio/static/css/main.ffc507f3.css.map",
-    "main.e41ac1fe.js.map": "/Portfolio/static/js/main.e41ac1fe.js.map"
+    "main.c8394447.css.map": "/Portfolio/static/css/main.c8394447.css.map",
+    "main.b1b8baae.js.map": "/Portfolio/static/js/main.b1b8baae.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffc507f3.css",
-    "static/js/main.e41ac1fe.js"
+    "static/css/main.c8394447.css",
+    "static/js/main.b1b8baae.js"
   ]
 }
