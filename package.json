@@ -1,4 +1,6 @@
+
 {
+"homepage":"https://Pritee668.github.io/Portfolio",
   "name": "portfolio-web",
   "version": "0.1.0",
   "private": true,
@@ -30,10 +32,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-     "build": "cross-env CI=false react-scripts build"
+    "build": "cross-env CI=false react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +60,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "cross-env": "^7.0.3",
+    "gh-pages": "^6.3.0",
     "sass": "^1.80.3"
   },
   "main": "index.js",

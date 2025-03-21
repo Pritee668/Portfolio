@@ -59,6 +59,14 @@ const projects = [
     tech: ['JavaScript', 'HTML', 'CSS'],
     image: StopwatchImage,
   },
+  {
+  title: 'Task Organizer',
+    description: 'A dynamic To-Do List organizer with animations for adding, completing, and deleting tasks.',
+    link: 'https://animated-task-list.netlify.app/',
+    github: 'https://github.com/Pritee668/Task-Organizer',
+    tech: ['JavaScript', 'HTML', 'CSS','jQuery'],
+    image:ToDo,
+  },
 ];
 
 const core = [
