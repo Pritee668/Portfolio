@@ -32,7 +32,7 @@ To run the portfolio locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/portfolio.git
+    git clone https://github.com/Pritee668/Portfolio.git
     ```
 
 2. Navigate into the project folder:
@@ -65,8 +65,9 @@ This portfolio can be easily deployed on platforms like [Vercel](https://vercel.
 
 Here are some preview images of the portfolio:
 
-- ![Portfolio Screenshot 1](path-to-screenshot1.png)
-- ![Portfolio Screenshot 2](path-to-screenshot2.png)
+![Portfolio Screenshot 1](src/image/portfolio1.png)
+![Portfolio Screenshot 2](src/image/portfolio2.png)
+
 
 ## License
 
